@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GK - Gallery</title>
+	<!-- Fonts for site text -->
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|BenchNine|Oswald|Teko|Roboto+Condensed" rel="stylesheet"> 
+	<!-- GuyKokujin css library -->
+	<link href="css/gk.css" rel="stylesheet">
+	<!-- GuyKokujin JS library -->
+	<script type="text/javascript" src="js/gk.js"></script>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<style>
+.gal-list div:nth-child(2) {
+	background-image: url(img/gallery/hiroshima.jpg);
+}
+
+.gal-list div:nth-child(4) {
+	background-image: url(img/gallery/matsuyama.jpg);
+}
+
+.gal-list div:nth-child(5) {
+	background-image: url(img/gallery/portfolio.jpg);
+}
+
+.gal-list div:nth-child(6) {
+	background-image: url(img/gallery/taipei.jpg);
+}
+
+.gal-list div:nth-child(8) {
+	background-image: url(img/gallery/bcone.jpg);
+}
+
+</style>
+</head>
+<!-- Background Image -->
+<body id ="gallerybg">
+	<!-- <div id="random" > -->
+
+<!-- Fixed navigation bar content -->
+<nav class ="topnav" id = "myTopnav">
+	
+	<a href="index.html"><img src="img/logo/logo2.png" class="portrait"></a>
+	<a href="index.html" class ="gk fade">GuyKokujin</a>
+
+	<div class = "navcenter">
+	<a href="about.html" class="links fade">About</a>
+	<a href="#top" class="links fade">Gallery</a>
+	<a href="music.html" class="links fade">Music</a>
+	<a href="events.html" class="links fade">Events</a>
+	</div>
+	
+	<!-- Hamburger click menu -->
+	<a href="javascript:void(0);" class="icon" onclick="hamburger()">
+		<i class="fas fa-bars fade"></i>
+	</a>
+</nav>
+<!-- </div> -->
+</body>
+
+<div class="gal-list">
+		<div class="gal-blank"></div>
+		<div class="gal-thumb-top bouncetop"><a class="gal" href="hiroshima.html">Hiroshima</a></div>
+		<div class="gal-blank"></div>
+		<div class="gal-thumb-left bounceleft"><a class="gal" href="matsuyama.html">Matsuyama</a></div>
+		<div class="gal-thumb-center bounce"><a class="gal" href="portfolio.html">Portfolio</a></div>
+		<div class="gal-thumb-right bounceright"><a class="gal"href="taipei.html">Taipei</a></div>
+		<div class="gal-blank"></div>
+		<div class="gal-thumb-bottom bouncebottom"><a class="gal" href="bcone.html">Red Bull BC One '16</a></div>
+		<div class="gal-blank"></div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Design by Samuel "GuyKokujin" Samson</div>
+
+</html>
